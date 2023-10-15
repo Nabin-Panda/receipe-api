@@ -34,4 +34,5 @@ jobs:
 
       - name: Run Test 
         run: | 
-         python manage.py test
+         cd app
+         python manage.py run test
